@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Jura", serif;
+    src: url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-image: linear-gradient(to right, #160B35, #231354);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border-bottom: 5px solid #3F045F;
+}
+
+.head-links {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.head-links a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Jura";
+}
+
+.user-links a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Jura";
+}
+
+body{
+    background-image: linear-gradient(to right, #262626, #161616);
+}
